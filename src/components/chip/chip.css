@@ -1,0 +1,24 @@
+.chip {
+    display: inline-flex;
+    background-color: var(--gray);
+    padding: 6px 14px;
+    border-radius: 12px;
+    line-height: 1em;
+    gap: 4px;
+}
+
+.chip-icon {
+    height: 1em;
+    display: inline-block;
+}
+
+.chip-icon > div {
+    display: contents;
+    height: 100%;
+}
+
+.chip-icon svg {
+    display: inline-block;
+    position: relative;
+    height: 1em;
+}
